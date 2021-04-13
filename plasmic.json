@@ -1,0 +1,69 @@
+{
+  "platform": "gatsby",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../static",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "99R52D58wkoJeWN6EZn6dU",
+      "projectName": "bigweed.buzz",
+      "version": "latest",
+      "cssFilePath": "plasmic/bigweed_buzz/plasmic_bigweed_buzz.module.css",
+      "components": [
+        {
+          "id": "MzwAMBDqqXsE",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "99R52D58wkoJeWN6EZn6dU",
+          "renderModuleFilePath": "plasmic/bigweed_buzz/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/bigweed_buzz/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "Ae3eyqX73",
+          "name": "image",
+          "filePath": "plasmic/bigweed_buzz/images/image.png"
+        }
+      ],
+      "projectApiToken": "XDEaVr7bpQksME3RXIPNuAkIoHgCAWThdZFGgWJeKxja9lGTFwl74leeDgY30IV3SLO638oqFzFv9nPSDcmfw"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ynOKfGgYSPCC",
+        "name": "Screen",
+        "projectId": "99R52D58wkoJeWN6EZn6dU",
+        "contextFilePath": "plasmic/bigweed_buzz/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "gatsbyConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.134",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.134/dist/plasmic.schema.json"
+}

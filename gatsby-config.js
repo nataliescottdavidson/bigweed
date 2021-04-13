@@ -6,10 +6,9 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Nat Davidson`,
-    siteTitleAlt: `Nat Davidson`,
+    siteTitle: `Big Weed`,
     siteDescription: `Nat's landing page`,
-        siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+        siteHeadline: `Big Weed`,
         // Will be used to generate absolute URLs for og:image etc.
         siteUrl: `https://minimal-blog.lekoarts.de`,
         // Used for SEO
@@ -23,22 +22,6 @@ module.exports = {
         // Links displayed in the header on the right side
   },
   plugins: [
-    {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-      // See the theme's README for all available options
-      options: {
-
-        navigation: [
-
-        ],
-        externalLinks: [
-          {
-            name: `Github`,
-            url: `https://github.com/nataliescottdavidson`,
-          },
-        ],
-      },
-    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
